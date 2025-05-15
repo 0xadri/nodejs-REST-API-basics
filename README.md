@@ -2,6 +2,20 @@
 
 Skeleton to get started with a REST API built with `Node.js` and `Express`.
 
+# 🚀 Try It Live 🚀
+
+### Deployed on Render
+
+ - Try the GET method directly on https://nodejs-rest-api-basics.onrender.com/feed/posts
+
+ - Try the GET and POST methods on https://codepen.io/adrien-be/pen/oggJQqX
+
+### Deployed on Glitch
+
+ - Try the GET method directly on https://illustrious-adaptable-cuticle.glitch.me/feed/posts
+
+ - Try the GET and POST methods on https://codepen.io/adrien-be/pen/jEEdgme
+
 # Tech
 
 `Javascript` · `Node.js`· `Express`
@@ -27,7 +41,7 @@ Skeleton to get started with a REST API built with `Node.js` and `Express`.
 >     const postButton = document.getElementById("post");
 >
 >     getButton.addEventListener("click", () => {
->       fetch('http://localhost:8080/feed/posts')
+>       fetch('http://127.0.0.1:8080/feed/posts')
 >         .then(res => res.json())
 >         .then(resData => console.log(resData))
 >         .catch(err => console.log(err));

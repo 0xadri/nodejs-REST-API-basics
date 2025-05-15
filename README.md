@@ -2,15 +2,17 @@
 
 Skeleton to get started with a REST API built with `Node.js` and `Express`.
 
+Production bundle/build with `Webpack`.
+
 # 🚀 Try It Live 🚀
 
-### Deployed on Render
+### Deployed on `Render`
 
  - Try the GET method directly on https://nodejs-rest-api-basics.onrender.com/feed/posts
 
  - Try the GET and POST methods on https://codepen.io/adrien-be/pen/oggJQqX
 
-### Deployed on Glitch
+### Deployed on `Glitch`
 
  - Try the GET method directly on https://illustrious-adaptable-cuticle.glitch.me/feed/posts
 
@@ -18,7 +20,7 @@ Skeleton to get started with a REST API built with `Node.js` and `Express`.
 
 # Tech
 
-`Javascript` · `Node.js`· `Express`
+`Javascript` · `Node.js`· `Express` · `Webpack`
 
 ## Build
 
@@ -32,6 +34,7 @@ Skeleton to get started with a REST API built with `Node.js` and `Express`.
 
 `HTML File`
 
+>     <p>Hit the GET and POST buttons below, then check output in the console.</p>
 >     <button id="get">GET</button>
 >     <button id="post">POST</button>
 
